@@ -17,6 +17,6 @@ class Fixnum
     	fibNext = fibCur
     end
     #ta-da, return the result
-    return fibCur
+    return fibOut
   end
 end
