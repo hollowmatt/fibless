@@ -8,7 +8,7 @@ class TestFibless < Test::Unit::TestCase
     end
     #test invalid input
     should "invalid entry" do
-      assert_equal "Please enter a number of zero or greater, thanks", 0.closest_fibonacci
+      assert_equal "Please enter a number of zero or greater, thanks", -1.closest_fibonacci
     end
   end
 end
