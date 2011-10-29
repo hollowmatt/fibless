@@ -1,5 +1,5 @@
 #Fibless -- by Matt Holloway
-class Fibless
+class Fixnum
   #This will return the fibonacci sequence smaller than an integer passed in
   #usage is x.closest_fibonacci where x is an integer greater than 0
   def closest_fibonacci
