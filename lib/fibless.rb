@@ -11,7 +11,7 @@ class Fixnum
     fibNext = 1       #next number to add
     fibOut = fibCur   #number we will display
 
-    while fibNext < self && self > 1
+    while fibCur < self && self > 1
     	fibCur = fibNext + fibOut
     	fibOut = fibNext
     	fibNext = fibCur
