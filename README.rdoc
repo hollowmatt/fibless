@@ -1,6 +1,16 @@
 = fibless
 
-Description goes here.
+A tiny tool to find the Fibonacci Number that is immediately prior to the one you pass in (FIB LESS, get it?)
+
+== Usage
+So, you will need to install this gem as in: prompt>gem install fibless
+Then, you should get a success message after which you may use it in a ruby file as follows
+
+require 'rubygems'
+require 'fibless'
+puts 128.closest_fibonacci
+
+* it should put out 89
 
 == Contributing to fibless
  
